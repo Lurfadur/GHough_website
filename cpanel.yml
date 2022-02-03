@@ -1,0 +1,8 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/public_html/
+    - index.html $DEPLOYPATH
+    - -R img $DEPLOYPATH
+    - -R css $DEPLOYPATH
+    - -R js $DEPLOYPATH
