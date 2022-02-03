@@ -15,11 +15,16 @@ body{
     align-items: center;
 }
 .main-selector{
-    border: 1px solid white;
-    width: 300px;
+    width: 500px;
     height: 300px;
-    margin: 0px 20px 0px 20px;
+    margin: 0px 50px 0px 50px;
+    transition: transform .2s; /* Animation */
+    overflow: hidden;
+}
+.main-selector:hover{
+    transform: scale(1.25);
 }
 .main-img{
     max-width: 100%;
+    object-fit: contain;
 }
