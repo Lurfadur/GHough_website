@@ -14,6 +14,9 @@ body{
     justify-content: center;
     align-items: center;
 }
+.container a{
+    display: block;
+}
 .main-selector{
     width: 500px;
     height: 300px;
