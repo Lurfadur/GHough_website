@@ -1,8 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/public_html/
-    - index.html $DEPLOYPATH
-    - -R img $DEPLOYPATH
-    - -R css $DEPLOYPATH
-    - -R js $DEPLOYPATH
+    - export DEPLOYPATH=/home/public_html #Add /<sub_folder> if required
+    - /bin/cp -r * $DEPLOYPATH
